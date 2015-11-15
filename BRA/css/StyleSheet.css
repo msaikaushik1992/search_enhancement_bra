@@ -1,0 +1,99 @@
+﻿body {
+}
+
+h3{
+    display : inline
+}
+#siteBranding {
+    background: #333333;
+    box-shadow: 3px 3px 5px 1.5px #ccc;
+    padding: 15px;
+}
+
+    #siteBranding img {
+        width: 226px;
+        height: 57px;
+        margin: 6px;
+    }
+
+    #siteBranding nav {
+        padding: 7px;
+        padding-left: 0;
+    }
+
+        #siteBranding nav a {
+            padding: 6px;
+            color: #f25520;
+        }
+
+            #siteBranding nav a:link {
+                text-decoration: none;
+            }
+
+            #siteBranding nav a:visited {
+                text-decoration: none;
+            }
+
+            #siteBranding nav a:hover {
+                color: white;
+                background-color: #f25520;
+                border-radius: 3px;
+            }
+
+            #siteBranding nav a:active {
+                text-decoration: none;
+            }
+
+#siteContent {
+    padding: 15px;
+}
+
+    #siteContent .search-by .accord-heading {
+        font-size: larger;
+        font-weight:bold;
+    }
+
+    #siteContent .search-by .search-by-type:hover {
+        cursor: pointer;
+    }
+
+
+    #siteContent .search-result .heading .sortable:hover{
+          cursor: pointer;
+    }
+
+    #siteContent .result-value{
+        border:solid;
+        border-color:black;
+        margin-bottom:8px;
+        padding:15px;
+    }
+
+input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#sort{
+
+    float  :left;
+    margin-top : 8px;
+}
+
+.dates{
+
+    margin-top : 8px
+}
+
+.search-by-type{
+
+    padding : 3px;
+    border : solid;
+    border-width : 2px;
+    border-color  : black;
+    border-radius : 10px;
+    margin-bottom : 5px
+}
+
+ 
+
